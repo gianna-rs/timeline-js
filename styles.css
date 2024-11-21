@@ -2,6 +2,6 @@
   box-sizing: border-box;
 }
 
-#main_photo {
+img {
   max-width: 320px;
 }
