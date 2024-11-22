@@ -48,9 +48,13 @@ div {
 }
 
 img {
-  max-width: 480px;
-  max-height: 500px;
+  max-width: 600px;
+  max-height: 600px;
   object-fit: contain;
+}
+
+p {
+  margin: 0;
 }
 
 .hide {

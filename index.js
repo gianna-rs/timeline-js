@@ -1,5 +1,5 @@
 opera_button.addEventListener("click", function () {
-  console.log("opera");
+  // console.log("opera");
   intro_section.classList.add("hide");
   opera_section.classList.remove("hide");
   edmonton_section.classList.add("hide");
@@ -11,7 +11,7 @@ opera_button.addEventListener("click", function () {
 });
 
 edmonton_button.addEventListener("click", function () {
-  console.log("edmonton");
+  // console.log("edmonton");
   intro_section.classList.add("hide");
   opera_section.classList.add("hide");
   edmonton_section.classList.remove("hide");
@@ -23,7 +23,7 @@ edmonton_button.addEventListener("click", function () {
 });
 
 calgary_button.addEventListener("click", function () {
-  console.log("calgary");
+  // console.log("calgary");
   intro_section.classList.add("hide");
   opera_section.classList.add("hide");
   edmonton_section.classList.add("hide");
@@ -35,7 +35,7 @@ calgary_button.addEventListener("click", function () {
 });
 
 intro_button.addEventListener("click", function () {
-  console.log("intro");
+  // console.log("intro");
   intro_section.classList.remove("hide");
   opera_section.classList.add("hide");
   edmonton_section.classList.add("hide");
